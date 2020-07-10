@@ -1,5 +1,3 @@
-function hello() {
-    console.log('hello there');
+export function sayHi(user) {
+    alert(`Hello, ${user}!`);
 }
-
-module.exports.hello = hello;
