@@ -1,6 +1,6 @@
 'use strict';
 
-export default window.$ = (function () {
+window.$ = (function () {
     class Selector {
         constructor(els) {
             for (let i = 0; i < els.length; i++) {
