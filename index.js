@@ -69,6 +69,13 @@ window.$_ = (function () {
             el.appendChild(body);
             document.body.appendChild(el);
         }
+        exist() {
+            if(this.length != 0) {
+                return this;
+            } else {
+                return null;
+            }
+        }
         // ========== DOM MANIPULATION ==========
         on(event, callback, options = null) {
             return this.forEach(function (el) {
@@ -121,7 +128,6 @@ window.$_ = (function () {
                 el.classList.add('open');
             })
         }
-        // needs testing!!!
         slide(pos, time) {
             return this.forEach(function (el) {
                 let start = Date.now();
