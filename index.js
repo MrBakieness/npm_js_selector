@@ -69,9 +69,9 @@ window.$_ = (function () {
             el.appendChild(body);
             document.body.appendChild(el);
         }
-        exist() {
+        exist(callback) {
             if(this.length != 0) {
-                return this;
+                return this.forEach(callback);
             } else {
                 return null;
             }
