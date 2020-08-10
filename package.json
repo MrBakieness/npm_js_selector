@@ -1,6 +1,6 @@
 {
   "name": "@mrbakieness/npm_js_selector",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "JavaScript libary",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,10 @@
     "url": "https://github.com/MrBakieness/npm_js_selector/issues"
   },
   "homepage": "https://github.com/MrBakieness/npm_js_selector#readme",
-  "keywords": ["JavaScript", "modal", "Select", "DOM"]
+  "keywords": [
+    "JavaScript",
+    "modal",
+    "Select",
+    "DOM"
+  ]
 }
