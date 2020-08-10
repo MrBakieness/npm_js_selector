@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrBakieness/npm_test.git"
+    "url": "git+https://github.com/MrBakieness/npm_js_selector.git"
   },
   "author": "James",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MrBakieness/npm_test/issues"
+    "url": "https://github.com/MrBakieness/npm_js_selector/issues"
   },
-  "homepage": "https://github.com/MrBakieness/npm_test#readme",
+  "homepage": "https://github.com/MrBakieness/npm_js_selector#readme",
   "keywords": ["JavaScript", "modal", "Select", "DOM"]
 }

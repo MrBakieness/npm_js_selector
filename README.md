@@ -2,7 +2,7 @@
 
 ![Selector][logo]
 
-[logo]: logo.png "Logo Title Text 2"
+[logo]: https://github.com/MrBakieness/npm_test/blob/master/logo.png?raw=true "Logo Title Text 2"
 
 ## Install
 
@@ -27,6 +27,8 @@ This libary has multiple functions that can be used to make javascript easier to
 
 ## .ready(*callback*)
 
+Basic ready function.
+
 ```javascript
 $_(document).ready(() => {
     console.log('document ready!');
@@ -39,6 +41,8 @@ $_(document).ready(() => {
 | *callback*   | All code to be executed after document has loaded  |
 
 ## .on(*events, callback, options*)
+
+Function to add event listener to elements.
 
 ```javascript
     $_('.element').on('click', (e) => {
@@ -66,6 +70,8 @@ The following are the current option arguments that can be passed.
 
 ## .forEach(*callback*)
 
+Function to loop through elements and executes code for each element.
+
 ```javascript
 $_('.elements').forEach((el) => {
     el.classList.remove('active');
@@ -78,6 +84,8 @@ $_('.elements').forEach((el) => {
 
 ## .addClass(*class*)
 
+Adds a class to an element or list of elements.
+
 ```javascript
 $_('.elements').addClass('class');
 ```
@@ -87,6 +95,8 @@ $_('.elements').addClass('class');
 | *class*   | Class to add to element  |
 
 ## .removeClass(*class*)
+
+Removes a class to an element or list of elements.
 
 ```javascript
 $_('.elements').removeClass('class');
@@ -98,11 +108,23 @@ $_('.elements').removeClass('class');
 
 ## .modal()
 
+Creates a modal based on element ID. The Element need to have the attribute <code>data-modal-title</code>.
+
+```html
+<div id="element" data-modal-title="Basic dialog">
+    <div class="modal__content">
+        <p>This is the default dialog.</p>
+    </div>
+</div>
+```
+
 ```javascript
-$_('.element').modal();
+$_('#element').modal();
 ```
 
 ## .slide(*position, time*)
+
+Horizontal slide function to move elements left to right based on position.
 
 ```javascript
 $_('.element').slide(toCenter, 500);
@@ -114,6 +136,8 @@ $_('.element').slide(toCenter, 500);
 | *time*     | Time to slide elements in milliseconds |
 
 ## .fadeOut(*time*)
+
+Fades out and element in a given time.
 
 ```javascript
 $_('.element').fadeOut(2000);
