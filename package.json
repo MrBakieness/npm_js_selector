@@ -1,7 +1,7 @@
 {
-  "name": "@mrbakieness/testpoo",
+  "name": "@mrbakieness/npm_js_selector",
   "version": "1.1.2",
-  "description": "poo test",
+  "description": "JavaScript libary",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/MrBakieness/npm_test/issues"
   },
-  "homepage": "https://github.com/MrBakieness/npm_test#readme"
+  "homepage": "https://github.com/MrBakieness/npm_test#readme",
+  "keywords": ["JavaScript", "modal", "Select", "DOM"]
 }
