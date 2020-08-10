@@ -2,7 +2,7 @@
 
 ![Selector][logo]
 
-[logo]: https://github.com/MrBakieness/npm_test/blob/master/logo.png?raw=true "Logo Title Text 2"
+[logo]: https://github.com/MrBakieness/npm_js_selector/blob/master/logo.png?raw=true "Logo Title Text 2"
 
 ## Install
 
