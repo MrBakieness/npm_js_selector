@@ -12,6 +12,12 @@ npm install @mrbakieness/npm_js_selector --save-dev
 
 ## Useage
 
+To use the module first you have to import the module into your main JavaScript file.
+
+```javascript
+import "../node_modules/@mrbakieness/npm_js_selector/index.js";
+```
+
 This libary has multiple functions that can be used to make javascript easier to write. Loosely based on jQuery but much more lightweight.
 
 | Methods     | Arguments                                 | Description                                                 |
