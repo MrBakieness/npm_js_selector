@@ -68,9 +68,21 @@ The following are the current option arguments that can be passed.
 | --------- | ------------------------------------------------------- |
 | *once*    | Execute event only once. Type *bool*  default *false*   |
 
+If <code>once: true</code> is being used the following needs to be include within the callback so that the event only happenes once on IE11.
+
+```javascript
+if (IE_once(e) == true) {
+    //code goes here ...
+}
+```
+
+A full example:
+
 ```javascript
     $_('.element').on('mouseover', (e) => {
-        e.target.style.color = 'red';
+        if (IE_once(e) == true) {
+            e.target.style.color = 'red';
+        }
     }, { once: true })
 ```
 
